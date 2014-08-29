@@ -6,6 +6,16 @@ This is a Rush Hour game solver written in Erlang.
 For more information about the Rush Hour game, visit:
 
   http://en.wikipedia.org/wiki/Rush_Hour_%28board_game%29
+  
+Project Details
+===============
+
+There are multiple solvers that follow two different approaches.
+The solver has been implemented using both the A* and the BFS
+algorithms. There are also concurrent implementations on both
+algorithms that provide a remarkable speedup compating to the 
+serial versions of the solver.
+  
 
 How to run
 ==========
